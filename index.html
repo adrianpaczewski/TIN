@@ -1,0 +1,108 @@
+<html lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <title>Bikster.pl</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div id="logo">
+
+        <div id="site-logo"><h1>Bikester.pl</h1></div>
+    </div>
+    <div style=clear:both></div>
+
+    <nav>
+        <ol id="menu-list">
+            <li class="menu"><a>Wszystkie</a>
+                <ul class="sub-menu" id="WSZYSTKIE ROWERY">
+                    <li class="sub-menu2" id="all-bikes"><a>Wszystkie rowery</a></li>
+                </ul>
+            </li>
+            <li class="menu"><a>Rowery górskie</a>
+                <ul class="sub-menu" id="Rowery górskie">
+                    <li class="sub-menu2" id="MTB-full"><a>Rowery górskie Full</a></li>
+                    <li class="sub-menu2" id="MTB-27,5"><a>Rowery MTB 27,5"</a></li>
+                    <li class="sub-menu2" id="MTB-29"><a>Rowery MTB 29"</a></li>
+                </ul>
+            </li>
+            <li class="menu"><a>Rowery szosowe</a>
+                <ul class="sub-menu" id="Rowery szosowe">
+                    <li class="sub-menu2" id="road"><a>Rowery Szosowe</a></li>
+                    <li class="sub-menu2" id="gravel"><a>Rowery Gravel</a></li>
+                </ul>
+
+            </li>
+            <li class="menu"><a>Rowery trekkingowe</a>
+                <ul class="sub-menu" id="Rowery trekkingowe">
+                    <li class="sub-menu2" id="trekking"><a>Rowery trekkingowe</a></li>
+                    <li class="sub-menu2" id="city"><a>Rowery miejskie</a></li>
+                </ul>
+
+            </li>
+            <li class="menu"><a>Rowery dla dzieci</a>
+                <ul class="sub-menu" id="Rowery dla dzieci">
+                    <li class="sub-menu2" id="kids"><a>Rowery dla dzieci</a></li>
+                    <li class="sub-menu2" id="teens"><a>Rowery młodzieżowe</a></li>
+                </ul>
+            </li>
+        </ol>
+    </nav>
+    <div style=clear:both></div>
+
+</header>
+<main>
+    <aside id="left-gallery">
+        <div id="leftDiv"></div>
+        <div id="leftDiv1"></div>
+        <div id="leftDiv2"></div>
+        <div id="leftDiv3"></div>
+
+
+    </aside>
+    <article>
+        <section>
+            <div class="main-bikes" id="mainBikes">
+                <h1 id="header">WSZYSTKIE ROWERY</h1>
+                <div class="sorting">
+                    <label for="sort">Sortowanie:</label>
+                    <select name="sort" id="sort">
+                        <option value="all">Domyślne</option>
+                        <option value="price_desc">Cena malejąco</option>
+                        <option value="price_asc">Cena rosnąco</option>
+                        <option value="name_desc">Alfabetycznie A-Z</option>
+                        <option value="name_asc">Alfabetycznie Z-A</option>
+                    </select>
+                    <button id="button" onclick="sort()">Sortuj</button>
+                </div>
+            </div>
+        </section>
+
+    </article>
+    <aside id="right-gallery">
+        <div><h1 id="most-popular-header">NAJCZĘŚCIEJ KUPOWANE</h1></div>
+        <div class="rightMain" id="rightMain">
+
+        </div>
+    </aside>
+
+
+</main>
+<div style=clear:both></div>
+<footer>
+    <div class="footer"><p>Masz Pytania? Prześlij nam swoje zapytanie na adres email :
+        <a>contact@bikster.pl</a>
+    </p>
+    </div>
+
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,270 @@
+body {
+    background-color: lightgray;
+    color: black;
+    font-size: 16px;
+}
+
+header {
+    width: 100%;
+}
+
+#logo {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 55px;
+}
+
+#site-logo {
+    font-family: 'Luxurious Roman', cursive;
+    color: cornflowerblue;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.sticky {
+    width: 72.5%;
+    padding-left: 13%;
+    padding-right: 13%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+.sorting {
+    width: 100%;
+    margin-left: 30%;
+}
+
+header nav ol {
+
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: 270%;
+}
+
+.menu {
+    font-size: 30px;
+    float: left;
+    width: 19.7%;
+    height: 50px;
+    border-left: 2px dotted #e3c114;
+    text-align: center;
+    background-color: cornflowerblue;
+
+}
+
+.menu a {
+    display: block;
+
+}
+
+.menu a:hover {
+    color: gray;
+}
+
+.menu:hover .sub-menu {
+    display: block;
+    color: cornflowerblue;
+}
+
+.menu:first-child {
+    border-left: 2px dotted #e3c114;
+}
+
+.menu a {
+    color: #e8e468;
+}
+
+.sub-menu:hover {
+    color: #dbb953;
+}
+
+.sub-menu {
+    background-color: cornflowerblue;
+    display: none;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+
+.sub-menu2 {
+    border-bottom: 1px dotted black;
+}
+
+.sub-menu2:last-child {
+    border: none;
+}
+
+main {
+    width: 100%;
+    height: 80%;
+}
+
+main article {
+    margin: 0;
+    padding: 0;
+}
+
+#left-gallery {
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    width: 12%;
+}
+
+#left-gallery div {
+    margin-bottom: 2px;
+    margin-top: 15px;
+}
+
+#left-gallery img {
+    width: 100%;
+    border-radius: 10px;
+    border: 5px double black;
+}
+
+main article {
+    width: 75%;
+    float: left;
+    margin-right: -10px;
+}
+
+#right-gallery {
+    float: left;
+    text-align: center;
+    width: 13%;
+    margin-top: 10px;
+
+}
+
+#most-popular-header {
+    color: black;
+    font-size: 20px;
+
+    border: 5px ridge #c24100;
+
+}
+
+#rightMain {
+    margin-bottom: 2px;
+    margin-right: 20px;
+    margin-left: 0;
+    height: 1500px;
+
+}
+
+#right-gallery div img {
+    width: 100%;
+    border-radius: 10px;
+    border: 5px double black;
+
+}
+
+#header {
+    color: slategrey;
+    font-size: 50px;
+}
+
+#mainBikes {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: lightgray;
+    width: 95%;
+
+}
+
+#mainBikes div {
+    margin-top: 30px;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+#mainBikes img {
+    width: 300px;
+    height: 300px;
+    border: 5px double black;
+    border-radius: 20px;
+
+}
+
+.mainBike {
+    position: relative;
+    filter: brightness(90%);
+    transition: all 0.2s;
+
+}
+
+.mainBike:hover {
+    position: relative;
+    transform: scale(1.1);
+    border-color: #ffd700;
+    filter: brightness(100%);
+
+}
+
+.product-price {
+    color: red;
+}
+
+.product-info {
+    font-weight: bold;
+}
+
+.sideBike {
+    position: relative;
+    filter: brightness(90%);
+    transition: all 0.2s;
+
+}
+
+.sideBike:hover {
+    position: relative;
+    transform: scale(1.1);
+    border-color: #ffd700;
+    filter: brightness(100%);
+
+}
+
+#rightMain a {
+    display: block;
+}
+
+.footer {
+
+    font-size: 23px;
+    text-align: center;
+    display: inline-block;
+    color: #1c0303;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100px;
+    font-weight: bold;
+}
+
+.footer a:hover {
+
+    color: gold;
+}
+
+ol {
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
